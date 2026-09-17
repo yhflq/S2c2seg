@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# evaluation outputs and logs
+work_logs/
+show_dir/
+*.log
+results/
+
+# datasets (symlink or local copy)
+data/
+
+# model weights
+*.pth
+*.ckpt
+*.bin
+checkpoints/
+
+# environment
+.env

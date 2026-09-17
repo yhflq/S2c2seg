@@ -1,0 +1,28 @@
+# Tested with Python 3.10 and CUDA 11.7.
+# torch/torchvision and mmcv require the CUDA-matched wheels, e.g.:
+#   pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 \
+#     --extra-index-url https://download.pytorch.org/whl/cu117
+#   pip install mmcv==2.0.1 \
+#     -f https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+einops==0.3.0
+fsspec==2023.9.0
+ftfy==6.2.0
+huggingface_hub==0.23.0
+matplotlib==3.7.2
+mmcv==2.0.1
+mmengine==0.8.4
+mmsegmentation==1.1.1
+nltk==3.8.1
+numpy==1.24.4
+opencv_python_headless==4.8.0.76
+Pillow==10.4.0
+pycocotools==2.0.7
+regex==2023.8.8
+safetensors==0.4.3
+scipy==1.14.0
+scikit-image==0.21.0
+timm==0.4.12
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.65.2
+transformers==4.37.2
